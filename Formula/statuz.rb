@@ -2,28 +2,28 @@
 class Statuz < Formula
   desc "Schedule posts to X, Bluesky, Mastodon, LinkedIn and Reddit from the terminal"
   homepage "https://statuz.app"
-  version "2.2.0"
+  version "2.2.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://cdn.statuz.app/download/cli/2.2.0/statuz-cli-darwin-arm64-2.2.0.tgz"
-      sha256 "102b56d879a0e1365b44b46b580778e0be9888bc6dbac2240492bda4aa6c3157"
+      url "https://cdn.statuz.app/download/cli/2.2.1/statuz-cli-darwin-arm64-2.2.1.tgz"
+      sha256 "141e779967d91a39a7042f01d16be97935ee65e57584c7f9f6e041b413688058"
     end
     on_intel do
-      url "https://cdn.statuz.app/download/cli/2.2.0/statuz-cli-darwin-x64-2.2.0.tgz"
-      sha256 "486a435d7ae94036164450aa4e79fc10e73b34e301e1559d2639ae0dad8789e5"
+      url "https://cdn.statuz.app/download/cli/2.2.1/statuz-cli-darwin-x64-2.2.1.tgz"
+      sha256 "b4f8dd5840e402462306b29c59a8da83cd7de45e3ea06584dc89b42d75a8a7ed"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://cdn.statuz.app/download/cli/2.2.0/statuz-cli-linux-arm64-2.2.0.tgz"
-      sha256 "568d88a14b5c9cd9f93403ee966f26bb5dab77fc8d6403243426f8eb10a1215a"
+      url "https://cdn.statuz.app/download/cli/2.2.1/statuz-cli-linux-arm64-2.2.1.tgz"
+      sha256 "5b7953aa095b5d37799e6fd2576b3ed04daa58f4fd571bfacf99441a5fcb9b2c"
     end
     on_intel do
-      url "https://cdn.statuz.app/download/cli/2.2.0/statuz-cli-linux-x64-2.2.0.tgz"
-      sha256 "ed19ee9142c25fd6e92805750dd415380464c8c004455cdc2c238299245905e0"
+      url "https://cdn.statuz.app/download/cli/2.2.1/statuz-cli-linux-x64-2.2.1.tgz"
+      sha256 "69394c99adcc236b9dde93abd38486bf3ecf7f558ae4bd17a0f2aafb257b5f40"
     end
   end
 
