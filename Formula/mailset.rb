@@ -2,28 +2,28 @@
 class Mailset < Formula
   desc "Real mailboxes for every address on your domains, from the terminal"
   homepage "https://mailset.app"
-  version "0.4.0"
+  version "0.5.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://cdn.mailset.app/download/cli/0.4.0/mailset-cli-darwin-arm64-0.4.0.tgz"
-      sha256 "b0d93c3bb8b1b3abde54a55349b0378b2580a77a538bde4c99845f6cffd1be57"
+      url "https://cdn.mailset.app/download/cli/0.5.0/mailset-cli-darwin-arm64-0.5.0.tgz"
+      sha256 "bb112d6821ef5dd076a2067c04eed0648a34a87115d2cb942c72be2e8c8e0314"
     end
     on_intel do
-      url "https://cdn.mailset.app/download/cli/0.4.0/mailset-cli-darwin-x64-0.4.0.tgz"
-      sha256 "41b7a9237fdb6d5bcf08071e251356d70cf5db100be48a39a909c7911a2a705b"
+      url "https://cdn.mailset.app/download/cli/0.5.0/mailset-cli-darwin-x64-0.5.0.tgz"
+      sha256 "1764aa67e922af6dbfe0e2ecd1d9236272610b20275163cf116688a05a48b731"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://cdn.mailset.app/download/cli/0.4.0/mailset-cli-linux-arm64-0.4.0.tgz"
-      sha256 "e712399edc93826a871f51630552bbf6d3ad19827b72268d4f7eeb045085e64f"
+      url "https://cdn.mailset.app/download/cli/0.5.0/mailset-cli-linux-arm64-0.5.0.tgz"
+      sha256 "1f3eed2fdb2131eb2ad6b6d212f48daab85200728e11aec9d0d4a0bb5a9e1f69"
     end
     on_intel do
-      url "https://cdn.mailset.app/download/cli/0.4.0/mailset-cli-linux-x64-0.4.0.tgz"
-      sha256 "f8539ed00a8e13bc7410f543159e00f1f5f3267146db738b559fd9e281e6c499"
+      url "https://cdn.mailset.app/download/cli/0.5.0/mailset-cli-linux-x64-0.5.0.tgz"
+      sha256 "e4673cfb23f4ec762853e93f621d05998049311c266376f5fbd0ce013aedbe68"
     end
   end
 
